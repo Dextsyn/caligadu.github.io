@@ -1,0 +1,53 @@
+[
+    {
+        "id": "1",
+        "name": "RTX 3050",
+        "price": "₱27000.00",
+        "image": "pics/GPU.jpg"
+    },
+    {
+        "id": "2",
+        "name": "RYZEN 7x",
+        "price": "₱12000.00",
+        "image": "pics/RYZEN.jpg"
+    },
+    {
+        "id": "3",
+        "name": "Crystallized Chandelier",
+        "price": "₱2500.00",
+        "image": "pics/4.jpg"
+    },    
+    {
+        "id": "4",
+        "name": "Extravagant Chair",
+        "price": "₱7000.00",
+        "image": "pics/6.jpg"
+    },    
+    {
+        "id": "5",
+        "name": "Modern Minimal Cabinet",
+        "price": "₱2200.00",
+        "image": "pics/8.jpg"
+    },
+    {
+        "id": "6",
+        "name": "Curved Standing Mirror",
+        "price": "₱999.00",
+        "image": "pics/7.jpg"
+    },
+    {
+        "id": "6",
+        "name": "Ring Ceiling Lights",
+        "price": "₱2100.00",
+        "image": "pics/light2.jpg"
+    },
+    {
+        "id": "7",
+        "name": "25' Monitor 75hz",
+        "price": "₱999.00",
+        "image": "pics/monitor.jpg"
+    }
+    
+
+
+]

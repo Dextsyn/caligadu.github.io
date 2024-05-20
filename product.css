@@ -1,0 +1,252 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Radio Canada Big", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+body {
+    background-color: rgb(112, 112, 112);
+}
+
+/* Header Styles */
+.header {
+    padding: 25px;
+    padding-bottom: 50px;
+    border-bottom: 2px solid;
+    background-color: white;
+    position: relative;
+}
+
+.header img {
+    position: absolute;
+    top: -35px;
+    left: 3em;
+    height: 150px;
+    width: 200px;
+}
+
+/* Navigation Styles */
+.nav {
+    display: inline-block;
+    position: absolute;
+    right: 15px;
+    background-color: white;
+}
+
+.nav a {
+    margin: 0 25px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    position: relative; 
+}
+
+.nav a::after {
+    content: "";
+    position: absolute; 
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ff7300;
+    transition: transform 0.3s ease-out;
+    transform: scaleX(0);
+}
+
+.nav a:hover::after {
+    transform: scaleX(1);
+}
+
+/* Footer Styles */
+footer {
+    padding: 10px 0px 20px;
+    border-top: 1px solid;
+    background-color: white;
+}
+
+.footer-text{
+    position: relative;
+    top: 20px;
+    padding: 0px 30px 0px;
+}
+
+.foot-nav img{
+    max-width: 300px;
+    height: 25px;
+    display: inline-block;
+    position: relative;
+    left: 110em;
+}
+
+/* Link Styles */
+a {
+    text-decoration: none;
+}
+
+.title-page{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 45px;
+}
+.container .item img{
+    max-width: 80%;
+}
+
+.container{
+    padding: 50px 25px 15px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+}
+
+.container .item{
+    background-color: #ff9844;
+    border-radius: 20px;
+    padding: 10px 25px;
+    color: rgb(255, 255, 255);
+}
+
+.container .item .name{
+    font-weight: 700;
+}
+
+.container .item .price{
+    font-size: small;
+    letter-spacing: 6px;
+    padding-bottom: 5px;
+}
+
+.container .item button{
+    padding: 10px;
+    border-radius: 20px;
+    border-style: none;
+    color: white;
+    background: #202020;
+    width: 30%;
+    cursor: pointer;
+}
+
+.container button:hover {
+    background-color: #ff7300;
+    color: black;
+    font-weight: 800;
+}
+
+.cartTab {
+    display: none;
+    position: fixed;
+    inset: 0 0 0 auto;
+    width: 400px;
+    height: 100%;
+    background-color: rgb(121, 121, 121);
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    transition: display 0.3s;
+
+}
+
+.cartTab.open {
+    display: block;
+}
+
+.cartTab h1{
+    padding: 20px;
+    margin: 0;
+    font-weight: 300;
+    color: white;
+}
+
+.cartTab .btn{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.cartTab .btn button{
+    background-color: #ff7300;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.cartTab.open {
+    display: block;
+}
+
+.cartTab .cartItem {
+    color: white;
+    padding: 10px;
+    margin: 5px;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: white;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+}
+
+.modal .modal-content .close:hover,
+.modal .modal-content.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label,
+form input {
+    margin-bottom: 10px;
+}
+
+form button {
+    padding: 10px;
+    border: none;
+    background-color: #ff7300;
+    color: white;
+    cursor: pointer;
+}
+
+footer {
+    padding: 10px;
+    border-top: 1px solid;
+    background-color: white;
+}
+
+.footer-text{
+    position: relative;
+    top: 20px;
+    padding: 0px 30px 0px;
+}
+
+.foot-nav img{
+    max-width: 300px;
+    height: 25px;
+    display: inline-block;
+    position: relative;
+    left: 110em;
+}
